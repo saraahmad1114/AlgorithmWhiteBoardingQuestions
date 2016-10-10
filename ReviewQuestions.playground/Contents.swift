@@ -16,3 +16,24 @@ func determineUniquenesss(word: String)-> Bool
 print(determineUniquenesss(word))
 
 
+//Given two strings, write a method to decide if one is a permutation of the other. 
+
+func determinePermutation(wordOne: String, wordTwo: String) -> Bool
+{
+    
+    return true
+}
+
+//Write a method to replace all spaces in a string with "%20"; you may assume that the string has sufficient space at the end to hold te additonal characters, and that you are given the "true" length of the string
+
+func replaceWithPercentTwenty (newSentence : String) -> String
+{
+    let newString = newSentence.stringByReplacingOccurrencesOfString(" ", withString: "%20")
+    return newString
+}
+
+replaceWithPercentTwenty("My name is Sara")
+
+
+
+
